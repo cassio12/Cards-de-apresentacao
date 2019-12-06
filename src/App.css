@@ -1,0 +1,30 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #212121;
+}
+.conatainer {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  width: 40%;
+  padding: 4rem;
+  margin: 2rem;
+  background-color: #262626
+}
+.card-img {
+  width: 70%; 
+  margin-left: 2.5rem;
+  border-radius: 50%;
+}
+.card-title {
+  /* color: #ffffff; */
+  background: -webkit-linear-gradient(#eee, rgb(51, 51, 51));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-info {
+  color: #ffffff
+}
